@@ -1,0 +1,96 @@
+.contenedor {
+  background-color: blue;
+  width: auto;
+  height: auto; }
+  .contenedor .primero {
+    background-color: red;
+    color: white;
+    max-height: 400px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 150px 300px 150px;
+    grid-template-rows: 150px;
+    grid-gap: 1rem;
+    justify-content: space-between; }
+    .contenedor .primero .cuadrados-primero {
+      background-color: aqua;
+      height: 100px;
+      width: 100px;
+      margin-top: 25px;
+      margin-left: 25px; }
+    .contenedor .primero .cuadrados-ultimo {
+      background-color: aquamarine;
+      height: 100px;
+      width: 100px;
+      margin-top: 25px;
+      margin-left: 25px; }
+    .contenedor .primero .cuadrados {
+      display: grid;
+      grid-template-columns: 150px 150px;
+      grid-template-rows: 150px;
+      grid-gap: 1rem;
+      margin-top: 25px;
+      margin-left: 25px;
+      justify-content: space-between; }
+      .contenedor .primero .cuadrados .cuadrado-segundo {
+        height: 100px;
+        width: 100px;
+        background-color: beige; }
+      .contenedor .primero .cuadrados .cuadrado-tercero {
+        height: 100px;
+        width: 100px;
+        background-color: black; }
+  .contenedor .segundo {
+    background-color: orange;
+    color: white;
+    max-height: 400px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px;
+    grid-gap: 1rem;
+    justify-content: space-between; }
+    .contenedor .segundo .cuadrado--segundo {
+      background-color: darkgreen;
+      height: 100px;
+      width: 100px;
+      margin-top: 25px;
+      margin-left: 25px; }
+  .contenedor .tercero {
+    background-color: red;
+    color: white;
+    max-height: 400px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 350px 500px 350px;
+    grid-template-rows: 400px;
+    grid-gap: 1rem;
+    justify-content: space-between; }
+    .contenedor .tercero .cuadrado--tercero {
+      background-color: indigo;
+      height: 350px;
+      width: 300px;
+      margin-top: 25px;
+      margin-left: 25px; }
+    .contenedor .tercero .cuadrado-medio {
+      background-color: black;
+      height: 350px;
+      width: 500px;
+      margin-top: 25px;
+      margin-left: 25px; }
+  .contenedor .cuarto {
+    background-color: orange;
+    color: white;
+    max-height: 400px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 150px;
+    grid-gap: 1rem;
+    justify-content: space-between; }
+    .contenedor .cuarto .cuadrado--cuarto {
+      background-color: darkgreen;
+      height: 30px;
+      width: 30px;
+      margin-top: 60px;
+      margin-left: 25px; }
